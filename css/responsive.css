@@ -1,0 +1,152 @@
+@media (max-width: 1400px) {
+  .standart_announcements_images img,
+  .section_second2 img,
+  .section_second3_images img {
+    width: 215px;
+  }
+}
+@media (max-width: 1340px) {
+  .standart_announcements_images img,
+  .section_second2 img,
+  .section_second3_images img {
+    width: 205px;
+  }
+}
+@media (max-width: 1290px) {
+  .standart_announcements_images img,
+  .section_second2 img,
+  .section_second3_images img {
+    width: 200px;
+  }
+  .section_second1 p {
+    height: 47px;
+    font-size: 17.5px;
+    left: 0;
+    margin-left: 600px;
+  }
+}
+
+@media (max-width: 1000px) {
+  /* header and searchbar */
+  .header_container {
+    max-width: 1200px;
+    width: 100%;
+  }
+  .search_bar {
+    max-width: 1225px;
+    width: 100%;
+  }
+  /* category list and button */
+  .category_list nav ul :nth-child(1)::after {
+    content: "";
+    width: 50px;
+    height: 2px;
+    border-radius: 3px;
+    background-color: red;
+    margin-top: 8px;
+    display: block;
+  }
+  .category_list nav ul :nth-child(9)::after {
+    content: "";
+    width: 104px;
+    height: 2px;
+    border-radius: 1px;
+    background-color: red;
+    margin-top: 20px;
+    display: block;
+  }
+  .category_list nav ul {
+    width: 75%;
+    background: #0085ff;
+    opacity: 0.9;
+    position: absolute;
+    top: 176px;
+    left: 125px;
+    z-index: 2;
+    border-radius: 10px;
+  }
+  .category_list nav ul li {
+    display: block;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    font-size: 110%;
+  }
+  .button {
+    display: block;
+    width: 2%;
+    height: 2%;
+    margin-right: 20px;
+  }
+  #menuList {
+    width: 230px;
+    overflow: hidden;
+    transition: 0.4s;
+  }
+
+  /* vip announcements */
+  .vip_price {
+    margin-top: 265px;
+    margin-left: 265px;
+  }
+  .vip_announcements_list {
+    margin-right: 30px;
+    width: 1100px;
+  }
+  .vip_images div {
+    position: relative;
+    margin-left: 0;
+  }
+  .vip_images img {
+    width: 330px;
+    border-radius: 8px;
+  }
+  .vip_announcements_list h3 {
+    font-size: 20px;
+  }
+  .vip_announcements_list h3::after {
+    content: "";
+    width: 60px;
+    height: 2px;
+    border-radius: 3px;
+    background-color: #0085ff;
+    display: block;
+    margin-top: 5px;
+  }
+
+  /*partner shops*/
+
+  .partner_shops :nth-child(1) {
+    font-size: 22px;
+  }
+  .partner_shops_images img {
+    margin-top: 10px;
+    padding-left: 71px;
+    width: 11%;
+  }
+  .partner_shops_images :nth-child(1) {
+    width: 2.5%;
+    padding-bottom: 35px;
+  }
+  .partner_shops_images :nth-child(6) {
+    width: 2.5%;
+    padding-bottom: 35px;
+  }
+
+  /* second section */
+  .section_second {
+    margin-top: 50px;
+    margin-left: 158px;
+    width: 1145px;
+  }
+  .standart_announcements :nth-child(1) {
+    font-size: 20px;
+  }
+  .standart_announcements_images div :nth-child(1) {
+    width: 191px;
+  }
+  .section_second2 img,
+  .section_second3_images img {
+    width: 17%;
+  }
+}
